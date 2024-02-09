@@ -1,3 +1,5 @@
+
+
 .titulo{
     color: white;
     font-size: 70px;
@@ -17,4 +19,37 @@
 
 .boton2{
     color : white;
+}
+
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 40px; /* Disminuido el tamaño del título */
+    }
+
+    .imagen {
+        margin-right: 5%; /* Cambiado a porcentaje */
+    }
+
+    .boton {
+        margin-right: 2%; /* Cambiado a porcentaje */
+        font-size: 14px; /* Disminuido el tamaño del texto */
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+
+    .titulo {
+        font-size: 50px; /* Disminuido el tamaño del título */
+    }
+
+    .imagen {
+        margin-right: 10%; /* Cambiado a porcentaje */
+    }
+
+    .boton {
+        margin-right: 5%; /* Cambiado a porcentaje */
+        font-size: 16px; /* Disminuido el tamaño del texto */
+    }
 }
