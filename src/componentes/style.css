@@ -7,33 +7,39 @@
 }
 
 
+
 .imagen{
-    margin-right: 130px;
+    margin-right: 300px;
+    width:350px;
+
 }
 
 .boton{
-    background: none;
-    margin-right: 105px;
-    font-size: 20px;
+    border-radius: 30px;
+    margin-right: 20px;
+    font-size: 50px;
 }
 
 .boton2{
-    color : white;
+    color : black;
 }
 
 
 @media (max-width: 768px) {
     .titulo {
-        font-size: 40px; /* Disminuido el tamaño del título */
+        font-size: 25px; /* Disminuido el tamaño del título */
+        margin-right: 10px;
     }
 
     .imagen {
-        margin-right: 5%; /* Cambiado a porcentaje */
+        width:200px ;
+        margin-right: 80px; /* Cambiado a porcentaje */
     }
 
     .boton {
-        margin-right: 2%; /* Cambiado a porcentaje */
-        font-size: 14px; /* Disminuido el tamaño del texto */
+        border-radius: 30px;
+        margin-right: 1px; /* Cambiado a porcentaje */
+        font-size: 20px; /* Disminuido el tamaño del texto */
     }
 }
 

@@ -8,8 +8,10 @@ const Home = () => {
 
     return (
         <div className='titulo'> 
-            <h1 className='titulo'>Juga con nosotros!</h1>
+            <h1 className='titulo'>Bienvenid@ a Ases Del Norte</h1>
+            <div className='imcon'>
             <img src='/casino2.jpg' alt='Casino' className='imagen'></img>
+            </div>
             <br />
             <button className='boton' >
              <a className='boton2' href='https://wa.link/4476ir'>Click aqui para contactarte con nosotros</a>
